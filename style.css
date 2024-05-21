@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #0BDA51;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.result-show{
+    width: 27%;
+    background-color: #fff !important;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    height: 90vh;
+    padding: 10px;
+    
+    
+}
+
+.head-main{
+    width: 100%;
+    height: 35vh;
+   
+    padding: 10px;
+    text-align: right;
+    /* margin-bottom: 20px; */
+    
+}
+.head-cal{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 30px;
+}
+
+#save{
+    
+    padding-bottom: 10px;
+    color: #A9A9A9;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+.input input{
+
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border:  none;
+    outline: none;
+    text-align: right;
+    
+}
+
+.displayNum1{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 240px;
+    background-color: yellow;
+    justify-content: space-around;
+    
+}
+.displayNum button {
+    width: 60px;
+    margin: 5px 0px;
+    padding: 5px 0px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    border:   none;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    outline: none;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.color{
+    color: #50C878;
+
+}
+/* @media (max-width:1440px){
+    .result-show{
+        width: 35%;
+        height: 60%;
+        background-color: purple !important;
+        
+        
+    }
+    
+    .head-main{
+        width: 100%;
+        height: 30%;
+        background-color: red;
+        padding: 10px;
+        
+    }
+
+} */
+
+@media (max-width:1024px){
+    .result-show{
+        width: 40%;
+        height: 90vh;
+        background-color: #fff !important;
+        padding-bottom: 5px;
+        
+        
+    }
+    
+    .head-main{
+        width: 100%;
+        height: 30vh;
+        background-color: #fff;
+        padding: 10px;
+        
+    }
+    .displayNum button{
+        width: 70px;
+    }
+
+}
+@media (max-width:768px){
+    .result-show{
+        width: 50%;
+        height: 92vh;
+        background-color: #fff !important;
+        padding-bottom: 5px;
+        
+    }
+    
+    .head-main{
+        width: 100%;
+        height: 35vh;
+        background-color: #fff;
+        padding: 10px;
+        
+    }
+    .number{
+        margin-top: 10px;
+    }
+
+}
+@media (max-width:425px){
+    .result-show{
+        width: 90%;
+        height: 92vh;
+        background-color: #fff !important;
+        padding-bottom: 5px;
+        margin: 0 10px;
+        
+    }
+    
+    .head-main{
+        width: 90%;
+        height: 35vh;
+        background-color: #fff;
+        padding: 10px;
+        
+    }
+    .number{
+        margin-top: 10px;
+    }
+
+}
+@media (max-width:375px){
+    .result-show{
+        width: 90%;
+        height: 92vh;
+        background-color: #fff !important;
+        padding-bottom: 5px;
+        margin: 0 10px;
+        
+        
+    }
+    
+    .head-main{
+        width: 90%;
+        height: 35vh;
+        background-color: #fff;
+        padding: 10px;
+        
+    }
+    .displayNum button{
+        width: 50px;
+    }
+    .number{
+        margin-top: 10px;
+    }
+    #save{
+        font-size: 15px;
+    }
+
+}
+@media (max-width:320px){
+    .result-show{
+        width: 90% !important;
+        height: 90vh;
+        background-color: #fff !important;
+        padding-bottom: 5px;
+        margin: 0 10px;
+        
+        
+    }
+    
+    .head-main{
+        width: 90% !important;
+        height: 30vh;
+        background-color: #fff;
+        padding: 10px;
+        
+        
+    }
+    .number{
+        margin-top: 10px;
+    }
+    .displayNum1{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        width: 250px;
+        background-color: yellow;
+        justify-content: space-around;
+        
+    }
+    .displayNum button {
+        width: 40px;
+        margin: 5px 0px;
+        padding: 5px 0px;
+        transition: 0.3s ease;
+        cursor: pointer;
+        border:   none;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-left: 10px;
+        outline: none;
+        text-align: center;
+        
+    }
+    .input input{
+        padding: 5px !important;
+        font-size: 15px;
+    }
+    #save{
+        font-size: 15px;
+    }
+    
+
+}
